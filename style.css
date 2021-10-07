@@ -1,0 +1,43 @@
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-footer {
+    background-color: burlywood;
+    list-style:none;
+    padding: 10px; /* расстояние содержимого до верхней границы */
+    border: solid black;
+    height: 30px;
+    width: 600px;
+}
+.menu-item{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.menu-link{
+    text-decoration: none;
+    color:rgb(92, 105, 163) ;
+}
+.menu-link:hover{
+    color: green
+}
+.main-header{
+    text-align: center;
+    color: rgb(167, 74, 74)
+}
+.descr{
+    text-align: justify; /*выравнивание по ширине*/
+}
+.tabl{
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+}
+.imag{
+    width: 200px;
+    border:solid brown;
+    outline: solid rgb(141, 24, 24);
+    margin: 0 auto;
+}
