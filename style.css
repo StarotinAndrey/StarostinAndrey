@@ -1,0 +1,89 @@
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-footer {
+    background-color: burlywood;
+    list-style:none;
+    padding-top: 5px; /* расстояние содержимого до верхней границы */
+    border: solid black;
+    height: 30px;
+    text-align: right;
+}
+.header-footer2 {
+    background-color: burlywood;
+    list-style:none;
+    padding: 10 px;
+    border: solid black;
+    text-align: right;
+    text-decoration: none;
+    height: 60px;
+    padding-right: 20px;
+    
+}
+
+.header-footer2:hover{
+    color: green;
+}
+
+.menu-item{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.menu-link{
+    text-decoration: none;
+    color:rgb(92, 105, 163) ;
+}
+.menu-link:hover{
+    color: green
+}
+.main-header{
+    text-align: center;
+    color: rgb(167, 74, 74)
+}
+.descr{
+    text-align: justify; /*выравнивание по ширине*/
+}
+
+.imag{
+    width: 200px;
+    border:solid brown;
+    outline: solid rgb(141, 24, 24);
+    margin: 0 auto;
+}
+.find{
+    background-color:burlywood;
+
+}
+.item-card{
+    display: inline-block;
+    width: 300px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    
+}
+.item-card:hover {
+    outline: 1px solid black;
+}
+.item-image{
+    padding: 10px;
+    margin: auto;
+    width: 100px;
+}
+.description{
+    text-align: right;
+}
+.price{
+    display: inline-block;
+    padding-left: 100px;
+}
+.name{
+    display:inline-block;
+}
+.header-image{
+    width:20px;
+}
